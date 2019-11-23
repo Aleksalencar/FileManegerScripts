@@ -7,7 +7,8 @@ config['paths'] = {
     'folder_path': 'D:\Downloads\Chrome'
 }
 config['variables'] = {
-    'videoExt': "'mkv', 'avi', 'mp4'"
+    'extensions': 'mkv, avi, mp4',
+    'word_limit': '6'
 }
 
 with open('configurations.ini', 'w') as f:

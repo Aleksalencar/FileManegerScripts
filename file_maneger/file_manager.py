@@ -11,7 +11,7 @@ dir = []
 arcs = []
 
 
-def separe_by_extesions (arq):  # verify if archive is a video
+def separe_by_extensions (arq):  # verify if archive is a video
     extensions = parser.get('variables', 'extensions')
     arqExtension = arq.name.split(".")
     extension = arqExtension[- 1]
@@ -54,7 +54,7 @@ def separe_archives():
         if archive.is_dir():
             dir.append(archive.name)
             pass
-        if separe_archives(archive):
+        if separe_by_extensions(archive):
             arcs.append(archive.name)
             pass
         pass

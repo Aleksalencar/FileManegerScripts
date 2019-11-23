@@ -1,14 +1,14 @@
 import os
 import shutil
 #Global
-path = "D:\Downloads\Chrome"
+path = ''
 lim = 6
 dir = []
 vids = []
 
 def isVideo(arq): #verify if archive is a video
     videoExt = ["mkv", "avi", "mp4"]
-    arqExtension = arq.name.split(".")
+    arqExtension = arq.split(".")
     extension = arqExtension[- 1]
     if extension in videoExt:
         return True
@@ -18,21 +18,21 @@ def isVideo(arq): #verify if archive is a video
 
 def archiveHasDir(archive, directory): #verify if archive has a directory
     for sub in directory:
-        if sub.lower() in archive.name.lower():
+        if sub.lower() in archive.lower():
             return sub
             pass
     return None
 
 
 def arqToDir(archive, directory): # move archive to directory
-    source = path+"\\"+archive.name
-    destiny = path+"\\"+directory+"\\"+archive.name
-    print("move "+archive.name+" to "+directory)
+    source = path+"\\"+archive
+    destiny = path+"\\"+directory+"\\"+archive
+    print("move "+archive+" to "+directory)
     shutil.move(source,destiny)
     pass
 
 def newDir(vid):
-    seriesName = vid.name.split("_")
+    seriesName = vid.split("_")
     name = seriesName[0]
     os.mkdir(name)
     dir.append(name)
@@ -49,7 +49,7 @@ for arq in arqs:  # Lista de diretorios
         dir.append(arq.name)
         pass
     if isVideo(arq):
-        vids.append(arq)
+        vids.append(arq.name)
         pass
     pass
 pass

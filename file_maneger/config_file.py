@@ -1,13 +1,16 @@
 from configparser import ConfigParser
-
 config = ConfigParser()
 
-
-config['file_maneger'] = {
+config['settings'] = {
     'folder_path': 'D:\Downloads\Chrome',
     'extensions': 'mkv, avi, mp4',
-    'word_limit': '6'
+    'word_limit': '6',
+    'top': '12344'
 }
 
-with open('file_maneger.ini', 'w') as f:
+config['teste'] = {
+    'teste':'teste123'
+}
+
+with open('./file_maneger_settings.ini', 'w') as f:
     config.write(f)

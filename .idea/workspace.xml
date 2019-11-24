@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d0036c-073d-4845-b4e1-22f4fcd0b10b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lugares/organizar_chrome_download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy_machine/configurator/configurator.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_machine/configurator/configurator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy_machine/copy_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_machine/copy_machine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copy_machine/configurator/configurations.ini" beforeDir="false" afterPath="$PROJECT_DIR$/configurator/configurations.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copy_machine/configurator/configurator.py" beforeDir="false" afterPath="$PROJECT_DIR$/configurator/configurator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copy_machine/configurator/configurator_boundary.py" beforeDir="false" afterPath="$PROJECT_DIR$/configurator/configurator_boundary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/file_maneger/config_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_maneger/config_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_maneger/configurations.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/file_maneger/file_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_maneger/file_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_maneger/file_maneger.ini" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +33,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aleksander\PycharmProjects\scripts" />
       <recent name="C:\Users\Aleksander\PycharmProjects\scripts\Lugares" />
       <recent name="C:\Users\Aleksander\PycharmProjects\scripts\copy_machine\configurator" />
       <recent name="C:\Users\Aleksander\PycharmProjects\scripts\copy_machine" />
@@ -165,8 +165,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.organizar_chrome_download" />
-        <item itemvalue="Python.config_file" />
         <item itemvalue="Python.copy_machine (1)" />
+        <item itemvalue="Python.config_file" />
         <item itemvalue="Python.file_manager" />
         <item itemvalue="Python.configurator" />
       </list>

@@ -1,6 +1,6 @@
 from configparser import ConfigParser
 from tkinter import *
-from copy_machine.configurator.configurator_boundary import Application
+from configurator.configurator_boundary import Application
 
 config = ConfigParser()
 

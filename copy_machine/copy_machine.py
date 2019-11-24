@@ -1,6 +1,7 @@
 import os
 import shutil
 from configparser import ConfigParser
+from file_maneger import file_manager
 
 
 def copy(list,origin, destiny):
@@ -40,3 +41,4 @@ source_files = scan(source)
 destiny_files = scan(destiny)
 copy_list = validation(source_files,destiny_files)
 copy(copy_list, source, destiny)
+file_manager.organize(destiny,False)

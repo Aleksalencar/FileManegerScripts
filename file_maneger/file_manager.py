@@ -1,80 +1,43 @@
 import os
-import shutil
 from configparser import ConfigParser
 
-# Global
-parser = ConfigParser()
-parser.read('configurations.ini')
-path = parser.get('paths', 'folder_path')
-lim = parser.get('variables', 'word_limit')
-dir = []
-arcs = []
+def is_extension_valid(archive):
+    parser = ConfigParser()
+    parser.read('file_maneger.ini')
+    extensions = parser.get('file_maneger', 'extensions')
+    archive = archive.split(".")
+    print(archive[-1])
+    print(extensions)
+    ''''
+    if archive[-1] in extensions:
 
-
-def separe_by_extensions (arq):  # verify if archive is a video
-    extensions = parser.get('variables', 'extensions')
-    arqExtension = arq.name.split(".")
-    extension = arqExtension[- 1]
-    if extension in extensions:
-        return True
-        pass
+        return True'''
     return False
 
-
-def archiveHasDir(archive, directory):  # verify if archive has a directory
-    for sub in directory:
-        if sub.lower() in archive.lower():
-            return sub
+def file_scan(path, filter_extensions):
+    valid_files = []
+    directory = os.scandir(path)
+    for archive in directory:
+        if archive.is_file():
+            if filter_extensions is True:
+                if is_extension_valid(archive.name):
+                    valid_files.append(archive.name)
+                    pass
+            else:
+                valid_files.append(archive.name)
+                pass
             pass
+        pass
+    pass
+    return valid_files
+
+
+def dir_scan(path):
     return None
 
 
-def arqToDir(archive, directory):  # move archive to directory
-    source = path + "\\" + archive
-    destiny = path + "\\" + directory + "\\" + archive
-    print("move " + archive + " to " + directory)
-    shutil.move(source, destiny)
+def organize(path, filter):
+    file_list = file_scan(path, filter)
+    dir_list = dir_scan(path)
+
     pass
-
-
-def newDir(vid):
-    seriesName = vid.split("_"," ","-")
-    name = seriesName[0]
-    os.mkdir(name)
-    dir.append(name)
-    print("criando " + name)
-    arqToDir(vid, name)
-    pass
-
-
-def separe_archives():
-    os.chdir(path)
-    directory = os.scandir()
-    for archive in directory:  # Lista de diretorios
-        if archive.is_dir():
-            dir.append(archive.name)
-            pass
-        if separe_by_extensions(archive):
-            arcs.append(archive.name)
-            pass
-        pass
-    pass
-    for archive in arcs:  # cria
-        arcDir = archiveHasDir(archive, dir)
-        if arcDir is None:
-            try:
-                newDir(archive)
-                pass
-            except FileExistsError:
-                print("FileExistsError")
-                pass
-            pass
-        else:
-            arqToDir(archive, arcDir)
-            pass
-        pass
-    print("Organizing done in "+path)
-    pass
-
-# Main
-separe_archives()

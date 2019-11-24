@@ -10,9 +10,9 @@ config['file_maneger'] = {
     'destiny': 'D:\Junior\Teste_DM'
 }
 
-'''
+
 root = Tk()
 Application(root)
-root.mainloop()'''
+root.mainloop()
 with open('configurations.ini', 'w') as f:
     config.write(f)

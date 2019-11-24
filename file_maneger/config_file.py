@@ -9,5 +9,5 @@ config['file_maneger'] = {
     'word_limit': '6'
 }
 
-with open('configurations.ini', 'w') as f:
+with open('file_maneger.ini', 'w') as f:
     config.write(f)

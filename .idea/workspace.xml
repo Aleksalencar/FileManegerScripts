@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d0036c-073d-4845-b4e1-22f4fcd0b10b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/copy_machine/configurator/configurator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copy_machine/configurator/configurator_boundary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copy_machine/copy_machine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lugares/organizar_chrome_download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Run/config_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_maneger/config_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Run/configurations.ini" beforeDir="false" afterPath="$PROJECT_DIR$/file_maneger/configurations.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Run/download_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_maneger/file_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copy_machine/configurator/configurator.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_machine/configurator/configurator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/copy_machine/copy_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/copy_machine/copy_machine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_maneger/config_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_maneger/config_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_maneger/configurations.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_maneger/file_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_maneger/file_manager.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +34,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aleksander\PycharmProjects\scripts\Lugares" />
       <recent name="C:\Users\Aleksander\PycharmProjects\scripts\copy_machine\configurator" />
       <recent name="C:\Users\Aleksander\PycharmProjects\scripts\copy_machine" />
       <recent name="C:\Users\Aleksander\PycharmProjects\scripts\Run" />
@@ -53,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.copy_machine (1)">
+  <component name="RunManager" selected="Python.organizar_chrome_download">
     <configuration name="config_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,32 +65,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Run" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file_maneger" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Run/config_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="configparser" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="scripts" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/configparser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_maneger/config_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="copy_machine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="file_manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scripts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,11 +128,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/copy_machine" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/file_maneger" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Aleksander\PycharmProjects\scripts\copy_machine\configurator\configurator_boundary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/file_maneger/file_manager.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="organizar_chrome_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lugares" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lugares/organizar_chrome_download.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.copy_machine (1)" />
-        <item itemvalue="Python.configurator" />
-        <item itemvalue="Python.copy_machine" />
+        <item itemvalue="Python.organizar_chrome_download" />
         <item itemvalue="Python.config_file" />
-        <item itemvalue="Python.configparser" />
+        <item itemvalue="Python.copy_machine (1)" />
+        <item itemvalue="Python.file_manager" />
+        <item itemvalue="Python.configurator" />
       </list>
     </recent_temporary>
   </component>
